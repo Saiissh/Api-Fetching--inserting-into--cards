@@ -1,0 +1,56 @@
+.heading{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+
+}
+
+
+#cards{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    /* border:1px solid black; */
+}
+
+
+.insi-card{
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 300px;
+}
+
+
+.card-header{
+    display: flex;
+    /* flex-flow: column wrap; */
+    justify-content: space-evenly;
+    font-size: small;
+    align-items: center;
+}
+
+#price{
+    text-align: right;
+}
+
+.status{
+    background-color: dodgerblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.status-approved {
+    background-color: pink;
+}
+
+.status-pending {
+    background-color: orange;
+}
+
+.status-completed {
+    background-color: blue;
+}
